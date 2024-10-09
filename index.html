@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="./favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <title>
+      OLX - Buy and Sell for free anywhere in Pakistan with OLX online
+      classifieds
+    </title>
+    <!-- Info: Boxicons Cdn -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Info: Bootstrap 5 Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Info: Custom Css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Info: Header  -->
+    <header
+      class="position-relative top-0 start-0 w-100 py-2 border border-bottom-2"
+    >
+      <!-- Info: Header-Container-1 -->
+      <div
+        class="header__container_1 container d-flex align-items-center gap-1 gap-md-3 mt-3 mb-2"
+      >
+        <!-- * Logo -->
+        <div class="logo__container me-3">
+          <a href="#">
+            <svg
+              height="32"
+              viewBox="0 0 36.289 20.768"
+              alt="Logo"
+              class="logo"
+            >
+              <path
+                d="M18.9 20.77V0h4.93v20.77zM0 10.39a8.56 8.56 0 1 1 8.56 8.56A8.56 8.56 0 0 1 0 10.4zm5.97-.01a2.6 2.6 0 1 0 2.6-2.6 2.6 2.6 0 0 0-2.6 2.6zm27 5.2l-1.88-1.87-1.87 1.88H25.9V12.3l1.9-1.9-1.9-1.89V5.18h3.27l1.92 1.92 1.93-1.92h3.27v3.33l-1.9 1.9 1.9 1.9v3.27z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+        <!-- * Logo 2 -->
+        <a href="#" class="d-flex align-items-center gap-2 me-3">
+          <div class="p-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="_5120d4ee"
+              alt="OLX Motors"
+            >
+              <path
+                d="M23.75 8.38a1.66 1.66 0 0 0-2.08-1.08l-.92.3-1.59-3.35-.5-.17a24.01 24.01 0 0 0-7.16-1c-2.23-.06-4.44.28-6.54 1.03l-.45.18-1.52 3.5-.64-.2a1.66 1.66 0 1 0-1 3.17l.12.04-.1.18a6.1 6.1 0 0 0-.61 2.26c-.01.37 0 1.11.03 1.83l.01 4v.03c-.02.36.02.73.12 1.08a1.1 1.1 0 0 0 1.11.74H4.4a1.1 1.1 0 0 0 1.1-.74c.1-.35.15-.72.13-1.08v-.44c2.76.25 4.53.37 6.28.37 1.74 0 3.45-.12 6.1-.36v.43c-.02.36.02.73.12 1.08a1.1 1.1 0 0 0 1.11.74h2.37a1.1 1.1 0 0 0 1.11-.74c.1-.35.14-.72.12-1.08l.01-3.96v-.03c.05-.74.1-1.5.1-1.93a5.6 5.6 0 0 0-.64-2.35l-.1-.21.47-.15a1.66 1.66 0 0 0 1.08-2.09zM5.37 5.18h.02c1.96-.69 4.03-1 6.1-.94 2.3-.04 4.6.28 6.8.93l.04.02 1.3 2.74a26.7 26.7 0 0 1-6.42.62h-1.06c-2.69.1-5.37-.05-8.03-.45l1.26-2.92zm-.9 13.92c0 .22-.01.45-.05.66H2a3.25 3.25 0 0 1-.04-.66v-.87c.16.08.33.13.5.15l2.02.18v.54zm17.2-.04v.04c0 .23-.01.45-.05.67h-2.44a3.26 3.26 0 0 1-.03-.67v-.53l1.88-.18c.22-.02.44-.09.63-.2v.87zm.64-9.7l-1.76.57.71 1.43c.3.57.48 1.2.5 1.85.02.37-.03 1.06-.07 1.7h-.01v.2l-.07 1.06c-.01.43-.28 1.05-.7 1.1-4.48.41-6.74.62-9 .62-2.28 0-4.66-.21-9.35-.64-.28-.03-.47-.48-.53-.9-.04-.3-.08-.79-.1-1.3v-.14a25.4 25.4 0 0 1-.02-1.62c.05-.61.21-1.21.48-1.77l.77-1.39-1.47-.46a.5.5 0 0 1 .3-.97l1.63.52.02-.02c2.45.43 4.94.6 7.43.52h2.13a26.8 26.8 0 0 0 6.92-.7l.49-.15L22 8.4a.51.51 0 0 1 .63.33.5.5 0 0 1-.33.64z"
+              ></path>
+              <path
+                d="M4.54 12.08a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6zm0 2.46a.65.65 0 1 1 0-1.3.65.65 0 0 1 0 1.3zm14.57-2.46a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6zm0 2.46a.65.65 0 1 1 0-1.3.65.65 0 0 1 0 1.3zm-11.71.28h8.96v1.15H7.4v-1.15z"
+              ></path>
+            </svg>
+          </div>
+          <span>Motors</span>
+        </a>
+        <!-- * Logo 3 -->
+        <a href="#" class="d-flex align-items-center gap-2">
+          <div class="p-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="_5120d4ee"
+              alt="OLX Property"
+            >
+              <path
+                d="M22.78 21.81V7.8L15.3 5.3v1.58l5.98 2V21.8H13.8V.7H1.22v21.1h-.6v1.5h22.76v-1.5h-.6zM12.3 4.3v17.5H2.72V2.2h9.58v2.1z"
+              ></path>
+              <path
+                d="M7.98 4.37h2.42v1.21H7.98v-1.2zm-3.63 0h2.42v1.21H4.35v-1.2zM7.98 6.8h2.42V8H7.98V6.8zm-3.63 0h2.42V8H4.35V6.8zm3.63 3.62h2.42v1.21H7.98v-1.2zm-3.63 0h2.42v1.21H4.35v-1.2zm3.63 2.42h2.42v1.21H7.98v-1.2zm-3.63 0h2.42v1.21H4.35v-1.2zm3.63 3.63h2.42v1.21H7.98v-1.2zm-3.63 0h2.42v1.21H4.35v-1.2zm13.31-6.05h1.21v1.21h-1.2v-1.2zm-2.42 0h1.21v1.21h-1.2v-1.2zm2.42 2.42h1.21v1.21h-1.2v-1.2zm-2.42 0h1.21v1.21h-1.2v-1.2zm2.42 3.63h1.21v1.21h-1.2v-1.2zm-2.42 0h1.21v1.21h-1.2v-1.2z"
+              ></path>
+            </svg>
+          </div>
+          <span>Property</span>
+        </a>
+      </div>
+      <!-- Info: Header-Container-2 -->
+      <div
+        class="header__container_2 container d-flex align-items-center justify-content-center flex-wrap mt-3 mb-2"
+      >
+        <!-- ! <== Section 1 ==> -->
+        <!-- *(Select Box) -->
+        <div class="search_inp_bx me-3">
+          <div class="select_inp position-relative" style="height: 50px">
+            <!-- info: Select icon -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 1024 1024"
+              class="position-absolute"
+              style="top: 50%; left: 10px; transform: translateY(-50%)"
+            >
+              <path
+                d="M512 85.33c211.75 0 384 172.27 384 384 0 200.58-214.8 392.34-312.66 469.34H440.68C342.83 861.67 128 669.9 128 469.33c0-211.73 172.27-384 384-384zm0 85.34c-164.67 0-298.67 133.97-298.67 298.66 0 160.02 196.89 340.53 298.46 416.6 74.81-56.72 298.88-241.32 298.88-416.6 0-164.69-133.98-298.66-298.67-298.66zm0 127.99c94.1 0 170.67 76.56 170.67 170.67s-76.56 170.66-170.66 170.66-170.67-76.56-170.67-170.66S417.9 298.66 512 298.66zm0 85.33c-47.06 0-85.33 38.28-85.33 85.34s38.27 85.33 85.34 85.33 85.33-38.27 85.33-85.33-38.27-85.34-85.33-85.34z"
+              ></path>
+            </svg>
+
+            <!-- info: Input Field -->
+            <input
+              type="text"
+              id="searchInput"
+              class="form-control"
+              placeholder="Location or Compound"
+              style="padding-inline: 40px; height: 100%"
+            />
+
+            <i
+              class="bx bx-chevron-down position-absolute"
+              style="
+                top: 50%;
+                right: 10px;
+                transform: translateY(-50%) rotate(0);
+                font-size: 40px;
+              "
+            ></i>
+            <!-- *Dropdown (will appear when input is focused) -->
+            <div class="inp_drp_dwn">
+              <select id="mySelect" class="form-select" size="4">
+                <option>Use current location</option>
+                <option class="border-top border-bottom">
+                  See all ads in Pakistan
+                </option>
+                <optgroup label="Choose Region" class="pt-3 pb-3">
+                  <option>AzadKashmir, Pakistan</option>
+                  <option>Balochistan, Pakistan</option>
+                  <option>Khyber Pakhtunkhwa, Pakistan</option>
+                  <option>Gilgit-Baltistan, Pakistan</option>
+                  <option>Islamabad, Pakistan</option>
+                  <option>Punjab, Pakistan</option>
+                  <option>Sindh, Pakistan</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- *(Select Box End) -->
+        <!-- Info: (Search Box) -->
+        <div class="search_bx position-relative col-sm-12" style="height: 50px">
+          <input
+            class="form-control h-100"
+            type="text"
+            placeholder="Find Cars, Mobile Phones and more..."
+            aria-label=".form-control-lg example"
+          />
+          <span
+            class="position-absolute top-50 end-0 translate-middle-y p-3 h-100 rounded-end-2"
+            style="color: #fff"
+          >
+            <i class="bx bx-search fs-4"></i>
+          </span>
+        </div>
+        <!-- Info: (Login Button) -->
+        <div class="login_btn ms-5">
+          <button class="fw-semibold border-0 fs-6">Login</button>
+        </div>
+
+        <!-- Info: (Sell Button) -->
+        <div class="sell_btn ms-4">
+          <button class="position-relative d-flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="104"
+              height="48"
+              viewBox="0 0 1603 768"
+              class="_3V9PS"
+            >
+              <path
+                class="_2bClX _12yOz"
+                d="M434.442 16.944h718.82c202.72 0 367.057 164.337 367.057 367.058s-164.337 367.057-367.057 367.057h-718.82c-202.721 0-367.058-164.337-367.058-367.058S231.721 16.943 434.442 16.943z"
+                fill="#fff"
+              />
+              <path
+                class="_2bClX _YBz-"
+                d="M427.241 669.489c-80.917 0-158.59-25.926-218.705-73.004l-.016-.014C139.407 542.352 99.766 464.914 99.766 383.997c0-41.07 9.776-80.712 29.081-117.797 25.058-48.139 64.933-89.278 115.333-118.966l-52.379-67.581c-64.73 38.122-115.955 90.98-148.159 152.845C18.8 280.243 6.201 331.224 6.201 383.997c0 104.027 50.962 203.61 139.799 273.175h.016c77.312 60.535 177.193 93.887 281.22 93.887h299.699l25.138-40.783-25.138-40.783H427.237z"
+                fill="#ffce32"
+              />
+              <path
+                class="_2bClX _3uYj7"
+                d="M1318.522 38.596c-45.72-14.369-93.752-21.658-142.762-21.658H427.249c-84.346 0-165.764 21.683-235.441 62.713l3.118 51.726 49.245 15.865c54.16-31.895 117.452-48.739 183.073-48.739h748.511c38.159 0 75.52 5.657 111.029 16.829 44.91 14.111 86.594 37.205 120.526 66.792l66.163-57.68c-43.616-38.01-97.197-67.703-154.957-85.852z"
+                fill="#23e5db"
+              />
+              <path
+                class="_2bClX BfroU"
+                d="M1473.479 124.453l-55.855 9.91-10.307 47.76c61.844 53.929 95.92 125.617 95.92 201.88a251.85 251.85 0 01-11.214 74.363c-38.348 124.311-168.398 211.129-316.262 211.129H726.949l25.121 40.783-25.121 40.783h448.812c190.107 0 357.303-111.638 406.613-271.498a323.69 323.69 0 0014.423-95.559c0-98.044-43.805-190.216-123.317-259.551z"
+                fill="#3a77ff"
+              />
+            </svg>
+            <!-- *Button text -->
+            <div
+              class="sell_btn_txt position-absolute top-50 start-50 translate-middle"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                width="16"
+                height="16"
+                viewBox="0 0 1024 1024"
+                fill="#002f34"
+              >
+                <path
+                  d="M414.898 123.739v291.218H123.68l-97.014 97.014 97.014 97.131h291.218v291.16l97.073 97.071 97.073-97.071v-291.16h291.16l97.131-97.131-97.131-97.014h-291.16V123.739l-97.073-97.073z"
+                />
+              </svg>
+              <span class="fw-bold text-uppercase">Sell</span>
+            </div>
+          </button>
+        </div>
+        <!-- ?? Section 1 End -->
+      </div>
+    </header>
+
+    <!-- Info: Main Section -->
+
+    <main class="main__container">
+      <!-- !Navbar -->
+      <nav class="nav container align-items-center mt-2">
+        <a class="nav-link active" aria-current="page"
+          >All Categories <i class="bx bx-chevron-down"></i
+        ></a>
+        <a class="nav-link">Mobile Phones</a>
+        <a class="nav-link">Cars</a>
+        <a class="nav-link">Motorcycles</a>
+        <a class="nav-link">Houses</a>
+        <a class="nav-link">Video-Audio</a>
+        <a class="nav-link">Tablets</a>
+        <a class="nav-link">Land & Plots</a>
+      </nav>
+      <!-- info: Add Container -->
+      <section>
+        <div class="add_container container w-100 overflow-hidden">
+          <img
+            src="https://images.olx.com.pk/thumbnails/437508562-800x600.webp"
+            class="w-100 my-2 p-2 object-fit-cover"
+          />
+        </div>
+      </section>
+
+      <section class="all_categories p-2">
+        <div class="all_categories_container container">
+          <div class="categories_header">
+            <h4 class="fw-bold">All categories</h4>
+          </div>
+          <!-- ! Categories Icons -->
+          <div
+            class="icon_container d-flex flex-wrap justify-content-center justify-content-md-start p-3"
+          >
+            <!-- ? Icon 1 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-mobiles.8c768c96bfde33f18fcf5af2a8b9cf71.png"
+                class="mb-1 w-100"
+              />
+              <span class="fw-bold fs-6">Mobiles</span>
+            </div>
+            <!-- ? Icon 2 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-vehicles.29fb808d5118f0db56f68a39ce5392e2.png"
+                class="mb-1"
+              />
+              <span class="fw-bold fs-6">Vehicles</span>
+            </div>
+            <!-- ? Icon 3 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-property-for-sale.e3a00dbfdaa69fe5f713665f1069502f.png"
+                class="mb-1"
+              />
+              <span class="fw-bold fs-6">Property For Sale</span>
+            </div>
+            <!-- ? Icon 4 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-property-for-rent.8436595fbaa90d47f0178006f57090a8.png"
+                class="mb-1"
+              />
+              <span class="fw-bold fs-6">Property For Rent</span>
+            </div>
+            <!-- ? Icon 5 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-electronics-home-appliances.46e034dd8adca44625c2c70e4d1b5984.png"
+              />
+              <span class="fw-bold fs-6">Electronics And Home Appliances</span>
+            </div>
+            <!-- ? Icon 6 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-bikes.4dcd02c49b2b83aa5b4d629d1e2b383e.png"
+                class="mb-1"
+              />
+              <span class="fw-bold fs-6">Bikes</span>
+            </div>
+            <!-- ? Icon 7 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-business-industrial-agriculture.704a6ffb9081bc94b11c102cc613670f.png"
+                class="mb-1"
+              />
+              <span class="fw-bold fs-6">Business, Indutrial &Agriculture</span>
+            </div>
+            <!-- ? Icon 8 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-services.dc6aef196c0403dc61b0ee813f66fa5b.png"
+                class="mb-1"
+              />
+              <span class="fw-bold fs-6">Services</span>
+            </div>
+            <!-- ? Icon 9 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/jobs.79e6136dda02111cf8e7afe26b9e0f93.png"
+                class="mb-1"
+              />
+              <span class="fw-bold fs-6">Jobs</span>
+            </div>
+            <!-- ? Icon 10 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-animals.62d396e85f7523dbc8ff23889fdd5c31.png"
+                class="mb-1"
+              />
+              <span class="fw-bold fs-6">Animals</span>
+            </div>
+            <!-- ? Icon 11 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-furniture-home-decor.66bcf157a53ea4c736a5b0af41219475.png"
+                class="mb-1"
+              />
+              <span class="fw-bold fs-6">Furniture & Home Decor</span>
+            </div>
+            <!-- ? Icon 12 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-fashion-beauty.dd2cf7638c29b0e5c084a6673dd94dd7.png"
+                class="mb-1"
+              />
+              <span class="fw-bold fs-6">Fashion & Beauty</span>
+            </div>
+            <!-- ? Icon 13 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-books-sports-hobbies.6fee8d841b332d65a10f050f4a2ee1c8.png"
+                class="mb-1"
+              />
+              <span class="fw-bold fs-6">Books, Sports & Hobbies</span>
+            </div>
+            <!-- ? Icon 14 -->
+            <div class="icon_wrapper">
+              <img
+                src="./images/assets-kids.cd8d8864804f1c35dd6a7df68268a48d.png"
+                class="mb-1"
+              />
+              <span class="fw-bold fs-6">Kids</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Info: Card Section -->
+      <section class="p-2 mt-5">
+        <div class="container mt-5">
+          <!-- ! Card Header -->
+          <div
+            class="card_header d-flex align-items-end justify-content-between my-3"
+          >
+            <h4 class="fw-bold m-0">More in recent ads</h4>
+            <span class="v_link d-flex align-items-center fw-bolder">
+              View more <i class="bx bx-chevron-right fs-2"></i>
+            </span>
+          </div>
+          <!-- ! Cards -->
+          <div
+            class="card_container d-flex justify-content-md-between gap-3 justify-content-center flex-wrap"
+          >
+            <!-- ? Card 1 -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="./images/thumbnails-467068646-240x180.jpeg"
+                class="card-img-top"
+              />
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title fs-6 fw-bold">Rs 27,000</h5>
+                <p class="card-text fw-normal my-3">
+                  Dell i5 3rd generation 8gb RAM
+                </p>
+                <div class="info_bx d-flex flex-column">
+                  <span class="location"
+                    >Gulistan-e-Jauhar Block-15, Karachi</span
+                  >
+                  <span class="date_time">2 days ago</span>
+                </div>
+              </div>
+            </div>
+            <!-- ? Card 2 -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="./images/thumbnails-483816117-240x180.jpeg"
+                class="card-img-top"
+              />
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title fs-6 fw-bold">Rs 35,000,000</h5>
+                <p class="card-text fw-normal my-3">
+                  House for sale 120 gaz 4 bed dd kda lease
+                </p>
+                <div class="info_bx d-flex flex-column">
+                  <span class="location"
+                    >Gulshan-e-Iqbal Block-7A, Karachi</span
+                  >
+                  <span class="date_time">4 days ago</span>
+                </div>
+              </div>
+            </div>
+            <!-- ? Card 3 -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="./images/thumbnails-484324302-240x180.jpeg"
+                class="card-img-top"
+              />
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title fs-6 fw-bold">Rs 365,000</h5>
+                <p class="card-text fw-normal my-3">KIA Classic 2000</p>
+                <div class="info_bx d-flex flex-column">
+                  <span class="location">Gulistan-e-Iqbal, Karachi</span>
+                  <span class="date_time">2 weeks ago</span>
+                </div>
+              </div>
+            </div>
+            <!-- ? Card 4 -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="./images/thumbnails-486195881-240x180.jpeg"
+                class="card-img-top"
+              />
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title fs-6 fw-bold">Rs 4,820,000</h5>
+                <p class="card-text fw-normal my-3">Honda BR-V 2020 S Tec</p>
+                <div class="info_bx d-flex flex-column">
+                  <span class="location">Aisha Manzil, Karachi</span>
+                  <span class="date_time">9 hours ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Info: Footer -->
+    <footer>
+      <div class="footer_sec_1 pt-4 pb-5">
+        <div
+          class="footer_container d-flex justify-content-evenly gap-3 flex-wrap"
+        >
+          <section>
+            <h3 class="text-uppercase fw-bold">Popular Categories</h3>
+            <ul class="m-0 p-0">
+              <li>Cars</li>
+              <li>Flats for rent</li>
+              <li>Mobile Phones</li>
+              <li>Jobs</li>
+            </ul>
+          </section>
+          <section>
+            <h3 class="text-uppercase fw-bold">Trending Searches</h3>
+            <ul class="m-0 p-0">
+              <li>Bikes</li>
+              <li>Watches</li>
+              <li>Books</li>
+              <li>Dogs</li>
+            </ul>
+          </section>
+          <section>
+            <h3 class="text-uppercase fw-bold">About us</h3>
+            <ul class="m-0 p-0">
+              <li>About Dubizzle Group</li>
+              <li>OLX Blog</li>
+              <li>Contact Us</li>
+              <li>OLX for Businesses</li>
+            </ul>
+          </section>
+          <section>
+            <h3 class="text-uppercase fw-bold">OLX</h3>
+            <ul class="m-0 p-0">
+              <li>Help</li>
+              <li>Sitemap</li>
+              <li>Terms of use</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="footer_sec_2 py-3">
+        <div class="text-md-end text-center mx-5">
+          <span class="fw-bold">Free Classifieds in Pakistan</span> . ©
+          2006-2024 OLX
+        </div>
+      </div>
+    </footer>
+  </body>
+  <!-- Info: Bootstrap 5 JS Cdn -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>
